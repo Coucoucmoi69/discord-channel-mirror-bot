@@ -3,10 +3,10 @@ import asyncio
 import re
 import os
 
-source_token = os.environ['SOURCE_DISCORD_BOT_TOKEN']
-target_token = os.environ['TARGET_DISCORD_BOT_TOKEN']
-source_channel_id = int(os.environ['SOURCE_CHANNEL_ID'])
-target_channel_id = int(os.environ['TARGET_CHANNEL_ID'])
+source_token = "OTg0ODE4NjkzNDYyNzE2NDM2.GfVpiL.gO2KYzvMNeYjgMdp7w5uA1m6QAwxv36qhH1lQg"
+target_token = "OTg0ODE4NjkzNDYyNzE2NDM2.GfVpiL.gO2KYzvMNeYjgMdp7w5uA1m6QAwxv36qhH1lQg"
+source_channel_id = 982210380904427563
+target_channel_id = 984813475048091698
 
 source_client = discord.Client()
 target_client = discord.Client()
